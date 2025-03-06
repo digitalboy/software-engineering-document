@@ -1,0 +1,428 @@
+[
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "当前痛点",
+        "question_id": "CP001",
+        "question_type": "起始问题",
+        "question_text_cn": "在您/您的团队/您的用户（根据具体情况选择）日常工作或生活中，有哪些事情让您感到重复、低效或 frustrated（沮丧）？可以分享一个具体的例子吗？",
+        "question_text_en": "In your/your team's/your users' (choose according to the specific situation) daily work or life, what things make you feel repetitive, inefficient, or frustrated? Can you share a specific example?",
+        "follow_up_questions": [
+            "CP002"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "作为一名上班族，我每天工作很忙，经常加班。养了狗狗之后，每天遛狗就成了我最头疼的事情。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "当前痛点",
+        "question_id": "CP002",
+        "question_type": "追问",
+        "question_text_cn": "在这个场景中，您/您的用户主要面临哪些具体的挑战或困难？这些挑战或困难给您/您的团队/您的用户带来了哪些实际的影响或损失？（例如：时间成本增加、效率降低、客户满意度下降、收入减少等）您能大概描述或量化这些影响吗？",
+        "question_text_en": "In this scenario, what specific challenges or difficulties do you/your users mainly face? What actual impacts or losses have these challenges or difficulties brought to you/your team/your users? (e.g., increased time costs, reduced efficiency, decreased customer satisfaction, reduced revenue, etc.) Can you roughly describe or quantify these impacts?",
+        "follow_up_questions": [
+            "CP003"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "我面临的主要挑战是时间和精力不足，而且不放心把狗狗交给不认识的人。这导致狗狗每天都闷在家里，很不开心。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "当前痛点",
+        "question_id": "CP003",
+        "question_type": "承接性问题",
+        "question_text_cn": "想象一下，如果这些问题都解决了，您/您的团队/您的用户的工作或生活会变成什么样？您最希望实现什么样的改变？",
+        "question_text_en": "Imagine, if these problems were solved, what would your/your team's/your users' work or life be like? What changes do you most hope to achieve?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "如果能有一个靠谱的平台，可以找到附近同样爱狗的人帮忙遛狗，那就太好了！",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "理想目标",
+        "question_id": "IG001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，如果这些问题都解决了，您/您的团队/您的用户的工作或生活会变成[您期望的改变]。能更具体地描述一下，您希望通过这个软件/应用，最终实现什么样的愿景吗？",
+        "question_text_en": "You mentioned that if these problems are solved, the work or life of you/your team/your users will become [the change you expect]. Can you describe more specifically what vision you ultimately hope to achieve through this software/application?",
+        "follow_up_questions": [
+            "IG002"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "打造一个充满爱和责任的养狗社区，让所有忙碌的养狗人士都能轻松找到安全、可靠的遛狗服务，让他们的狗狗每天都能享受快乐的户外时光。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "理想目标",
+        "question_id": "IG002",
+        "question_type": "追问",
+        "question_text_cn": "为了实现这个愿景，您认为这个软件/应用需要具备哪些关键的特点？",
+        "question_text_en": "In order to realize this vision, what key features do you think this software/application needs to have?",
+        "follow_up_questions": [
+            "IG003"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "1. 严格的身份认证机制；2. 完善的遛狗服务流程；3. 可靠的安全保障措施；4. 活跃的社区氛围。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "理想目标",
+        "question_id": "IG003",
+        "question_type": "承接性问题",
+        "question_text_cn": "您觉得，哪些人会最迫切需要并积极使用这款软件/应用？他们有什么共同的特征吗？",
+        "question_text_en": "Who do you think would be most urgently needed and actively use this software/application? What characteristics do they have in common?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "一线城市的上班族、平时工作非常忙碌、但又非常爱狗的人士。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户画像",
+        "question_id": "UP001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，最迫切需要并积极使用这款软件/应用的人群，是[目标用户群体描述]。为了更好地了解他们，请您详细描述一个典型的用户，可以给他/她起个名字。",
+        "question_text_en": "You mentioned that the people who most urgently need and actively use this software/application are [description of the target user group]. To better understand them, please describe a typical user in detail, and give him/her a name.",
+        "follow_up_questions": [
+            "UP002",
+            "UP003"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "李明，30岁，软件工程师，居住在北京，养了一只金毛犬，名叫“Lucky”。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户画像",
+        "question_id": "UP002",
+        "question_type": "追问",
+        "question_text_cn": "李明的生活和工作是怎样的？（例如：工作时间、通勤方式、兴趣爱好、收入水平等）",
+        "question_text_en": "What is Li Ming's life and work like? (e.g., working hours, commuting methods, hobbies, income level, etc.)",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "工作时间 9-6，经常加班，通勤时间长，平时喜欢宅在家里。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户画像",
+        "question_id": "UP003",
+        "question_type": "追问",
+        "question_text_cn": "李明在养狗方面遇到了哪些挑战？他通常会如何解决这些问题？",
+        "question_text_en": "What challenges does Li Ming encounter in raising a dog? How does he usually solve these problems?",
+        "follow_up_questions": [
+            "UP004"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "没有时间遛狗，不放心把狗狗交给陌生人。让狗狗自己在家呆着，或者偶尔周末带它去公园玩一下。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户画像",
+        "question_id": "UP004",
+        "question_type": "承接性问题",
+        "question_text_cn": "如果李明开始使用这款遛狗APP，您觉得他会如何使用它？他最希望通过这款APP实现什么？",
+        "question_text_en": "If Li Ming starts using this dog walking APP, how do you think he will use it? What does he most hope to achieve through this APP?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "李明晚上 8 点下班回家，看到 Lucky 无精打采的样子，觉得很内疚。于是他打开遛狗 APP，浏览附近的遛狗人，选择了一个评价比较好、价格也合适的遛狗人，然后预约了第二天早上 7 点的遛狗服务。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户故事",
+        "question_id": "US001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，如果李明开始使用这款遛狗APP，他可能会[使用APP的方式和期望]。请您详细描述李明使用这款APP来完成一次完整的遛狗预约的流程。",
+        "question_text_en": "You mentioned that if Li Ming starts using this dog walking APP, he might [use the APP in the way and expectations]. Please describe in detail the process of Li Ming using this APP to complete a complete dog walking appointment.",
+        "follow_up_questions": [
+            "US002",
+            "US003",
+            "US004"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "李明晚上 8 点下班回家，看到 Lucky 无精打采的样子，觉得很内疚。于是他打开遛狗 APP，浏览附近的遛狗人，选择了一个评价比较好、价格也合适的遛狗人，然后预约了第二天早上 7 点的遛狗服务。在预约的时候，他填写了 Lucky 的一些基本信息和注意事项。支付成功后，李明就放心地去休息了。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户故事",
+        "question_id": "US002",
+        "question_type": "追问",
+        "question_text_cn": "在李明选择遛狗人的时候，他最关注哪些信息？",
+        "question_text_en": "When Li Ming chooses a dog walker, what information is he most concerned about?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "遛狗人身份认证、遛狗经验、用户评价和价格。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户故事",
+        "question_id": "US003",
+        "question_type": "追问",
+        "question_text_cn": "在李明填写 Lucky 的信息时，他希望填写哪些内容？",
+        "question_text_en": "When Li Ming fills in Lucky's information, what content does he want to fill in?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "宠物信息填写：品种、年龄、体重、性格、健康状况和特殊需求。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户故事",
+        "question_id": "US004",
+        "question_type": "追问",
+        "question_text_cn": "在遛狗过程中，李明希望能够了解哪些信息？",
+        "question_text_en": "What information does Li Ming want to know during the dog walking process?",
+        "follow_up_questions": [
+            "US005"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "实时查看 Lucky 的位置、运动轨迹和照片。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "用户故事",
+        "question_id": "US005",
+        "question_type": "承接性问题",
+        "question_text_cn": "为了让李明能够顺利完成这次遛狗预约，这款APP需要提供哪些具体的功能？",
+        "question_text_en": "In order for Li Ming to successfully complete this dog walking appointment, what specific functions does this APP need to provide?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "遛狗人列表展示、遛狗人详细信息展示、遛狗服务预约、宠物信息管理、支付功能、实时定位和轨迹记录。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "功能清单",
+        "question_id": "FL001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，为了让李明能够顺利完成这次遛狗预约，这款APP需要提供[APP需要提供的功能]。请您将这些功能进行细化，并描述每个功能的主要作用。",
+        "question_text_en": "You mentioned that in order for Li Ming to successfully complete this dog walking appointment, this APP needs to provide [the functions that the APP needs to provide]. Please refine these functions and describe the main function of each function.",
+        "follow_up_questions": [
+            "FL002",
+            "FL003"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "用户注册/登录：允许用户创建和管理账户。遛狗人列表展示：展示附近的遛狗人信息。遛狗人详细信息展示：展示遛狗人的详细信息，包括身份认证、遛狗经验、用户评价和价格。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "功能清单",
+        "question_id": "FL002",
+        "question_type": "追问",
+        "question_text_cn": "请您对这些功能进行优先级排序，哪些功能是核心功能，必须首先实现？哪些功能是次要功能，可以稍后实现？",
+        "question_text_en": "Please prioritize these functions, which functions are core functions that must be implemented first? Which functions are secondary functions that can be implemented later?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "核心功能：用户注册/登录、遛狗人列表展示、遛狗人详细信息展示、遛狗服务预约、宠物信息管理、支付功能、实时定位和轨迹记录。次要功能：遛狗过程照片上传、用户评价。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "功能清单",
+        "question_id": "FL003",
+        "question_type": "追问",
+        "question_text_cn": "除了功能性需求之外，您对这款APP还有哪些非功能性需求？例如，性能、安全、可靠性、易用性等方面。",
+        "question_text_en": "In addition to functional requirements, what non-functional requirements do you have for this APP? For example, performance, security, reliability, and ease of use.",
+        "follow_up_questions": [
+            "FL004"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "性能：APP需要响应速度快，界面流畅。安全：用户信息和支付信息需要得到安全保护。可靠性：APP需要稳定运行，不易崩溃。易用性：APP需要操作简单，界面友好。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "功能清单",
+        "question_id": "FL004",
+        "question_type": "承接性问题",
+        "question_text_cn": "您觉得市面上是否有类似的产品可以参考？它们在功能和体验方面有哪些优点和缺点？",
+        "question_text_en": "Do you think there are similar products on the market that you can refer to? What are their advantages and disadvantages in terms of functionality and experience?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "DogHero：优点：用户基数大，覆盖范围广；缺点：价格较高，服务质量参差不齐。PetBacker：优点：提供多种宠物服务，选择丰富；缺点：界面设计比较复杂，操作不够便捷。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "参考或竞品分析",
+        "question_id": "CA001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，您觉得市面上是否有类似的产品可以参考， 它们在功能和体验方面有哪些优点和缺点？请具体列举几个您了解的竞品，并分别描述它们的优点和缺点。",
+        "question_text_en": "You mentioned that you think there are similar products on the market that you can refer to. What are their advantages and disadvantages in terms of functionality and experience? Please list a few of the competing products you know and describe their advantages and disadvantages respectively.",
+        "follow_up_questions": [
+            "CA002",
+            "CA003"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "DogHero：优点：用户基数大，覆盖范围广；缺点：价格较高，服务质量参差不齐。PetBacker：优点：提供多种宠物服务，选择丰富；缺点：界面设计比较复杂，操作不够便捷。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "参考或竞品分析",
+        "question_id": "CA002",
+        "question_type": "追问",
+        "question_text_cn": "针对您提到的这些竞品，它们在哪些功能上做得比较出色？有哪些功能是缺失或者不足的？",
+        "question_text_en": "For these competing products you mentioned, which functions do they do well? What functions are missing or insufficient?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "优点：DogHero 在遛狗人的身份认证方面做得比较好，PetBacker 在宠物服务种类方面做得比较丰富。缺点：它们在实时定位和轨迹记录方面都做得不够好，用户无法实时了解狗狗的运动情况。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "参考或竞品分析",
+        "question_id": "CA003",
+        "question_type": "追问",
+        "question_text_cn": "结合您对竞品的分析，您觉得我们的这款APP应该在哪些方面做得更好，才能形成差异化竞争优势？",
+        "question_text_en": "Based on your analysis of competing products, what aspects do you think our APP should do better in order to form a differentiated competitive advantage?",
+        "follow_up_questions": [
+            "CA004"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "价格：提供更具竞争力的价格，吸引更多用户。安全：加强遛狗人的身份认证和背景调查，提供更可靠的安全保障。实时性：提供更精准的实时定位和轨迹记录功能，让用户随时掌握狗狗的运动情况。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "参考或竞品分析",
+        "question_id": "CA004",
+        "question_type": "承接性问题",
+        "question_text_cn": "您设想一下，用户在使用这款APP时，会主要用到哪些页面或功能模块？这些页面或功能模块之间是如何连接的？",
+        "question_text_en": "Imagine, what pages or function modules will users mainly use when using this APP? How are these pages or function modules connected?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "首页：展示附近的遛狗人信息，提供搜索和筛选功能。遛狗人详情页：展示遛狗人的详细信息，包括身份认证、遛狗经验、用户评价和价格。预约页：允许用户选择遛狗时间和地点，并填写宠物信息。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "站点地图/应用地图",
+        "question_id": "SM001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，用户在使用这款APP时，会主要用到[用户会用到的页面或功能模块]，这些页面或功能模块之间是如何连接的？请您描述一下APP的整体结构和导航流程。",
+        "question_text_en": "You mentioned that users will mainly use [pages or function modules that users will use] when using this APP. How are these pages or function modules connected? Please describe the overall structure and navigation flow of the APP.",
+        "follow_up_questions": [
+            "SM002",
+            "SM003"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "APP整体结构：首页、遛狗人详情页、预约页、订单页、个人中心。用户首先在首页浏览遛狗人信息，然后进入遛狗人详情页查看详细信息，接着在预约页选择遛狗时间和地点，最后在订单页查看订单信息。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "站点地图/应用地图",
+        "question_id": "SM002",
+        "question_type": "追问",
+        "question_text_cn": "用户在首页进行搜索和筛选时，可以按照哪些条件进行筛选？",
+        "question_text_en": "When users search and filter on the homepage, what conditions can they use to filter?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "用户可以按照价格、距离、评价、遛狗经验、是否接受特定犬种等条件进行筛选。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "站点地图/应用地图",
+        "question_id": "SM003",
+        "question_type": "追问",
+        "question_text_cn": "APP的主要 Tab 栏或者导航菜单有哪些？它们分别对应哪些功能模块？ (如果适用，针对APP)",
+        "question_text_en": "What are the main Tab bars or navigation menus of the APP? What function modules do they correspond to respectively? (If applicable, for APP)",
+        "follow_up_questions": [
+            "SM004"
+        ],
+        "expected_data_type": "字符串",
+        "example_answer": "APP的主要 Tab 栏包括：首页、订单、消息、我的。它们分别对应遛狗人列表展示、订单管理、消息通知、个人信息管理等功能模块。",
+        "is_optional": true
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "站点地图/应用地图",
+        "question_id": "SM004",
+        "question_type": "承接性问题",
+        "question_text_cn": "在描述APP的结构和功能的过程中，有哪些术语是您觉得需要特别解释的，以确保所有人都能够理解？",
+        "question_text_en": "In the process of describing the structure and function of the APP, what terms do you think need to be specially explained to ensure that everyone can understand?",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "遛狗人、犬种、订单、轨迹记录。",
+        "is_optional": false
+    },
+    {
+        "module": [
+            "需求"
+        ],
+        "sub_module": "术语表",
+        "question_id": "GL001",
+        "question_type": "起始问题",
+        "question_text_cn": "您提到，在描述APP的结构和功能的过程中，有一些术语是您觉得需要特别解释的，以确保所有人都能够理解。请列出这些术语，并给出清晰、简洁的定义。",
+        "question_text_en": "You mentioned that in the process of describing the structure and function of the APP, there are some terms that you think need to be specially explained to ensure that everyone can understand. Please list these terms and give clear and concise definitions.",
+        "follow_up_questions": [],
+        "expected_data_type": "字符串",
+        "example_answer": "遛狗人：指通过APP提供遛狗服务的服务提供者。犬种：指狗狗的品种，例如金毛、拉布拉多、泰迪等。订单：指用户通过APP预约遛狗服务的记录。轨迹记录：指在遛狗过程中，APP实时记录狗狗的位置和运动路线。",
+        "is_optional": false
+    }
+]
