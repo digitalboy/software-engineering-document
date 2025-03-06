@@ -1,8 +1,6 @@
-# 产品背景
-## 解决痛点
-### 例子：
+# 产品背景(解决痛点)
+## 例子：
 **需要通过CoQ引导出更多的量化指标**
-
 - 需求部门和执行部门在需求沟通方面存在障碍，双方都不清楚如何有效描述和挖掘需求
 - 我们面临PRD编写耗时耗力，每一份文档都需要2-4周
 - 质量参差不齐，平均每个PRD需要有3-5次需求评审，修改3-5次
@@ -64,6 +62,51 @@
 ## 例子：
 **前置条件：核心功能清单**
 **页面之间可以拖拉线条，表示页面之间的跳转关系，可以用UML的类图表示**
+
+```
+@startuml
+class Homepage {
+    + 导航模块 : Module
+    + 轮播图模块 : Module
+    + 推荐产品模块 : Module
+    + 搜索按钮 : Button
+}
+
+class ProductListPage {
+    + 筛选模块 : Module
+    + 产品展示模块 : Module
+    + 分页组件 : Component
+}
+
+class ProductDetailPage {
+    + 产品信息模块 : Module
+    + 购买按钮 : Button
+    + 评价模块 : Module
+}
+
+class UserCenterPage {
+    + 订单管理模块 : Module
+    + 个人信息模块 : Module
+    + 退出按钮 : Button
+}
+
+class SearchResultPage {
+    + 搜索结果展示模块 : Module
+    + 排序筛选模块 : Module
+}
+
+Homepage --> ProductListPage : + 导航模块
+Homepage --> ProductDetailPage : + 推荐产品模块, + 轮播图模块
+Homepage --> SearchResultPage : + 搜索按钮
+ProductListPage --> ProductDetailPage : + 产品展示模块
+ProductDetailPage --> ProductListPage : + 返回按钮 (假设详情页有返回列表页的按钮)
+Homepage --> UserCenterPage : + 用户中心入口 (假设首页有用户中心入口)
+UserCenterPage --> Homepage : + 退出按钮
+
+SearchResultPage --> ProductDetailPage : + 搜索结果展示模块
+
+@enduml
+```
 - 首页
 - 知识图谱
 - 模版管理
@@ -74,6 +117,7 @@
 ## 例子：
 **前置条件：站点地图**
 **用Vue3的组件库，生成页面**
+**前端表现形式，app,web,小程序**
 - 首页
 - 知识图谱
 - 模版管理
